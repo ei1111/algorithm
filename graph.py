@@ -25,7 +25,7 @@ def search(name):
                 return True
             else:
                 search_queue += graph[person]
-                searched.append(person)#끝에 m일 들어가지 않는 사람 저장  
+                searched.append(person)#끝에 m이 들어가지 않는 사람 저장  
 
     return False
 
